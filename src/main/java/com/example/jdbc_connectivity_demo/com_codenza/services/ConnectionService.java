@@ -9,7 +9,7 @@ public class ConnectionService {
         try {
             String url = " jdbc:mysql://localhost:3306/demodb";
             String username = "root";
-            String password = "admin";
+            String password = " ";
             connection = DriverManager.getConnection(url, username, password);
             System.out.println("Connection to the database!");
 

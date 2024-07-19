@@ -1,19 +1,11 @@
 package com.example.jdbc_connectivity_demo.com_codenza.model;
 
-public class Student {
+public class Student{
     private int studentId;
-
     private String name;
-
     private Address address;
-
     private float percentage;
-
     private  String  grade;
-
-
-
-
 
     public int getStudentId() {
         return studentId;
